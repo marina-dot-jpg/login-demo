@@ -29,7 +29,7 @@ if (isset($_POST['btnsignup'])) {
     // Example output: f4552671f8909587cf485ea990207f3b
 
     $to = $email; // Send email to our user
-    $subject = 'Demo Login Verification'; // Give the email a subject
+    $subject = 'Login Verification'; // Give the email a subject
     $message = '
 
     Your account has been created, you can log in with the following credentials after you have activated your account by pressing the url below.
