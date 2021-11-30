@@ -6,7 +6,7 @@
 </head>
 <div class="topbar"></div>
 <div class="container">
-    <?php include 'templates/nav.php'?>
+    <?php include './templates/nav.php'?>
     <div id="div_login">
         <h1>Registration & Login Demo</h1>
         <div>
