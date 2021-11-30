@@ -33,7 +33,7 @@ VALUES ('" . $username . "', '" . $key . "', '" . $expDate . "');");
 
     Please click on the following link to reset your password.
 
-    https://sadgrl.leprd.space/login-demo/forgot-password/reset-password/index.php?
+    https://yourwebsite.com/login-demo/forgot-password/reset-password/index.php?
 key=' . $key . '&username=' . $username . '&action=reset
 
     The link will expire after 1 day for security reasons.
@@ -44,7 +44,7 @@ your account and change your security password as someone may have guessed it.
 
     '; // Our message above including the link
 
-        $headers = 'From:noreply@sadgrl.leprd.space' . "\r\n"; // Set from headers
+        $headers = 'From:noreply@yourwebsite.com' . "\r\n"; // Set from headers
         mail($to, $subject, $message, $headers); // Send our email
         include "template.php";
     }

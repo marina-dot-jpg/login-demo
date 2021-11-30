@@ -39,11 +39,11 @@ if (isset($_POST['btnsignup'])) {
     ------------------------
 
     Please click this link to activate your account:
-    https://sadgrl.leprd.space/login-demo/verify/?email=' . $email . '&hash=' . $hash . '
+    https://yourwebsite.com/login-demo/verify/?email=' . $email . '&hash=' . $hash . '
 
     '; // Our message above including the link
 
-    $headers = 'From:noreply@sadgrl.leprd.space' . "\r\n"; // Set from headers
+    $headers = 'From:noreply@yourwebsite.com' . "\r\n"; // Set from headers
     mail($to, $subject, $message, $headers); // Send our email
 
     // Check fields are empty or not
