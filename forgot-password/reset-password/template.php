@@ -10,22 +10,18 @@
 
 <div class="topbar"></div>
 <div class="container">
-    <div class="navbar">
-        <div class="item"><a href="/login-demo/">Home</a></div>
-        <div class="item"><a href="/login-demo/register/">Register</a></div>
-        <div class="item"><a href="/login-demo/login/">Login</a></div>
+    <?php include '../templates/nav.php'?>
+    <div id="div_login">
+        <h1>Reset Password</h1>
+        <div>
+            <form method="post" action="" name="update">
+                <input type="hidden" name="action" value="update" />
+                <label><strong>Enter New Password:</strong></label><br />
+                <input type="password" name="pass1" maxlength="15" required /><br>
+                <label><strong>Re-Enter New Password:</strong></label><br />
+                <input type="password" name="pass2" maxlength="15" required />
+                <input type="hidden" name="username" value="<?php echo $username; ?>" /><br><br>
+                <input type="submit" value="Reset" />
+        </div>
+        </form>
     </div>
-            <div id="div_login">
-                <h1>Reset Password</h1>
-<div>
-<form method="post" action="" name="update">
-    <input type="hidden" name="action" value="update" />
-    <label><strong>Enter New Password:</strong></label><br />
-    <input type="password" name="pass1" maxlength="15" required /><br>
-    <label><strong>Re-Enter New Password:</strong></label><br />
-    <input type="password" name="pass2" maxlength="15" required />
-    <input type="hidden" name="username" value="<?php echo $username; ?>" /><br><br>
-    <input type="submit" value="Reset" />
-    </div>
-</form>
-</div>

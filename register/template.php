@@ -9,11 +9,7 @@
 <body>
     <div class="topbar"></div>
     <div class="container">
-        <div class="navbar">
-            <div class="item"><a href="/login-demo/">Home</a></div>
-            <div class="item"><a href="/login-demo/register/">Register</a></div>
-            <div class="item"><a href="/login-demo/login/">Login</a></div>
-        </div>
+        <?php include '../templates/nav.php'?>
         <div class="form">
             <form method="post" action="" name="">
                 <div id="div_login">
@@ -46,7 +42,7 @@
                                 onkeyup='' required="required" maxlength="80">
                         </div>
 
-                        <input type="submit" name="btnsignup" value="Register"></input>
+                        <input type="submit" id="but_submit" name="btnsignup" value="Register"></input>
             </form>
         </div>
     </div>

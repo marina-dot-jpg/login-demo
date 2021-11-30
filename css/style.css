@@ -94,3 +94,9 @@ input[type=password] {
     font-size: 1.2em;
     padding: 20px;
 }
+
+label {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: bold;
+}

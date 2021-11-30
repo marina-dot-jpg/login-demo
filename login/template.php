@@ -6,11 +6,7 @@
 </head>
 <div class="topbar"></div>
 <div class="container">
-    <div class="navbar">
-        <div class="item"><a href="../">Home</a></div>
-        <div class="item"><a href="../register/">Register</a></div>
-        <div class="item"><a href="../login/">Login</a></div>
-    </div>
+    <?php include '../templates/nav.php'?>
     <div class="form">
         <form method="post" action="">
             <div id="div_login">

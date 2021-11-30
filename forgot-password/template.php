@@ -10,19 +10,15 @@
 
 <div class="topbar"></div>
 <div class="container">
-    <div class="navbar">
-        <div class="item"><a href="/login-demo/">Home</a></div>
-        <div class="item"><a href="/login-demo/register/">Register</a></div>
-        <div class="item"><a href="/login-demo/login/">Login</a></div>
-    </div>
-        <form method="POST" action="index.php" name="reset">
-            <div id="div_login">
-                <h1>Forgot Password</h1>
+    <?php include '../templates/nav.php'?>
+    <form method="POST" action="index.php" name="reset">
+        <div id="div_login">
+            <h1>Forgot Password</h1>
+            <div class="form-group">
                 <div class="form-group">
-                    <div class="form-group">
-                        <label><strong>Enter Your Username:</strong></label>
-                        <input type="username" name="username" placeholder="username" />
-                    </div>
-                    <input type="submit" class="btn btn-info" value="Reset"></button>
+                    <label><strong>Enter Your Username:</strong></label>
+                    <input type="username" name="username" placeholder="username" />
                 </div>
-        </form>
+                <input type="submit" class="btn btn-info" value="Reset"></button>
+            </div>
+    </form>
