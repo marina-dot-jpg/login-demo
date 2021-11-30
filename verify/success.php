@@ -14,7 +14,7 @@
                 <br><br>
                 You will be redirected automatically.
             </p>
-            <meta http-equiv='refresh' content='2;url=/login-demo/login/'>
+            <meta http-equiv='refresh' content='2;url=../login/'>
         </div>
     </div>
 </div>
