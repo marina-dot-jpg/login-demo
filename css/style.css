@@ -1,5 +1,5 @@
 :root {
-    --main-color: rgb(114, 79, 143);
+    --main-color: #727272;
     --background-color: rgb(19, 19, 19);
     --background-accent: rgb(66, 66, 66);
 
@@ -40,6 +40,11 @@ a {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+#div_login a {
+    color: white;
+}
+
+
 h1 {
     background-color: var(--background-accent);
     color: white;
@@ -51,6 +56,22 @@ h1 {
 
 #div_login div {
     padding: 30px;
+}
+
+.form-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.forgot {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.forgot a {
+    text-decoration: none;
 }
 
 #div_login li {
