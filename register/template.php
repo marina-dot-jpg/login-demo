@@ -41,8 +41,9 @@
                             <input type="password" class="form-control" name="confirmpassword" id="confirmpassword"
                                 onkeyup='' required="required" maxlength="80">
                         </div>
-
-                        <input type="submit" id="but_submit" name="btnsignup" value="Register"></input>
+                        <div>
+                            <input type="submit" id="but_submit" name="btnsignup" value="Register"></input>
+                        </div>
             </form>
         </div>
     </div>
