@@ -10,7 +10,8 @@
     <div id="div_login">
         <h1>Success</h1>
         <div>
-            <p>Account created successfully. <br>Please check your e-mail for a link to log in.</p>
+            <p>Account created successfully.</p>
+            <p>Please check your e-mail for a link to log in.</p>
         </div>
     </div>
 </div>
