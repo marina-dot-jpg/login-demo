@@ -7,9 +7,9 @@
 <div class="topbar"></div>
 <div class="container">
     <div class="navbar">
-        <div class="item"><a href="/login-demo/">Home</a></div>
-        <div class="item"><a href="/login-demo/register/">Register</a></div>
-        <div class="item"><a href="/login-demo/login/">Login</a></div>
+        <div class="item"><a href="../">Home</a></div>
+        <div class="item"><a href="../register/">Register</a></div>
+        <div class="item"><a href="../login/">Login</a></div>
     </div>
     <div class="form">
         <form method="post" action="">
@@ -23,10 +23,11 @@
                     <div class="form-group">
                         <input type="password" class="textbox" id="password" name="password" placeholder="Password" />
                     </div>
-                    <p style="font-size:10px; margin-left:10px;"><a href="../forgot-password/">Forgot password?</a><br>
-                        <br><a href="../forgot-username/">Forgot username?</a>
-                    </p>
-
+                    <div class="forgot">
+                        <p><a href="../forgot-password/">Forgot password?</a><br>
+                            <br><a href="../forgot-username/">Forgot username?</a>
+                        </p>
+                    </div>
                     <div>
                         <input type="submit" value="Submit" name="but_submit" id="but_submit" />
                     </div>
